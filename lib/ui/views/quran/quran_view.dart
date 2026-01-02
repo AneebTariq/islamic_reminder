@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class HomeView extends StatelessWidget {
-  const HomeView({super.key});
+class QuranView extends StatelessWidget {
+  const QuranView({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
         child: Text(
-          'Home View',
+          'Quran View',
           style: TextStyle(
             fontSize: 24,
             color: Theme.of(context).brightness == Brightness.dark
